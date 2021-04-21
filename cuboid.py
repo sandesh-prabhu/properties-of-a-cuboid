@@ -15,7 +15,7 @@ def prop(l,b,h):
     print("Total Surface Area(TSA):"+str(TSA)+"cm^2")
     print("Volume(v):"+str(V)+"cm^3")
     print("Diagonal(D):"+str(D)+"cm")
-    print("Perimeter(P):"+str(P)"cm")
+    print("Perimeter(P):"+str(P)+"cm")
 while 1:
     l=input("Enter the length of the cuboid(in cm)(enter nothing to exit):")
     if l=="":
