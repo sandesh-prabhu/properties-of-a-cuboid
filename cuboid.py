@@ -11,11 +11,11 @@ def prop(l,b,h):
     V=l*b*h
     D=((l**2)+(b**2)+(h**2))**(1/2)
     P=4*(l+b+h)
-    print("Lateral Surface Area(LSA):"+str(LSA))
-    print("Total Surface Area(TSA):"+str(TSA))
-    print("Volume(v):"+str(V))
-    print("Diagonal(D):"+str(D))
-    print("Perimeter(P):"+str(P))
+    print("Lateral Surface Area(LSA):"+str(LSA)+"cm^2")
+    print("Total Surface Area(TSA):"+str(TSA)+"cm^2")
+    print("Volume(v):"+str(V)+"cm^3")
+    print("Diagonal(D):"+str(D)+"cm")
+    print("Perimeter(P):"+str(P)"cm")
 while 1:
     l=input("Enter the length of the cuboid(in cm)(enter nothing to exit):")
     if l=="":
